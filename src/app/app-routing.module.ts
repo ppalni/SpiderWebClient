@@ -4,7 +4,7 @@ import { LayoutComponent } from './core/layout/layout.component';
 
 const routes: Routes = [
   {
-    path: 'login',
+    path: '',
     loadChildren: 'app/pages/custom-pages/login/login.module#LoginModule',
   },
   {
@@ -16,7 +16,7 @@ const routes: Routes = [
     loadChildren: 'app/pages/custom-pages/forgot-password/forgot-password.module#ForgotPasswordModule',
   },
   {
-    path: '',
+    path: 'dashboard',
     component: LayoutComponent,
     children: [
       {

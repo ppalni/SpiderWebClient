@@ -32,6 +32,7 @@ export class SidenavItemComponent implements OnInit {
 
   constructor(private sidenavService: SidenavService, private router: Router) {
     this.isCollapsed$ = this.sidenavService.sidenavState$.pipe(
+      // tslint:disable-next-line:no-shadowed-variable
       map(state => state === 'collapsed')
     );
     this.dropdownState$ = this.sidenavService.currentlyOpen$.pipe(
@@ -44,6 +45,7 @@ export class SidenavItemComponent implements OnInit {
   }
 
   ngOnInit() {
+
   }
 
   isActive() {

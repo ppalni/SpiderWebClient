@@ -1,6 +1,6 @@
 {
-  "name": "Fury",
-  "short_name": "Fury",
+  "name": "Spider V2",
+  "short_name": "Spider V2",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",
@@ -45,6 +45,12 @@
     {
       "src": "assets/icons/icon-512x512.png",
       "sizes": "512x512",
+      "type": "image/png"
+    },
+
+    {
+      "src": "assets/icons/icon-spider-152x152.png",
+      "sizes": "152x152",
       "type": "image/png"
     }
   ]
