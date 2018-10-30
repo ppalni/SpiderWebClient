@@ -40,7 +40,8 @@
               "src/assets",
               "src/favicon.ico",
               "src/manifest.json",
-              "src/manifest.json"
+              "src/manifest.json",
+              "src/web.config"
             ],
             "styles": [
               "src/styles.scss"
